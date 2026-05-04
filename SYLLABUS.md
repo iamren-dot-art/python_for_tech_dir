@@ -2,13 +2,13 @@
 
 **Student:** Arian | REN LLC
 **North Star:** Technical Director & Pipeline Architect
-**Focus:** Architecting creative pipelines, bridging design with engineering, and building custom toolsets for Cinema 4D, TouchDesigner, hardware ecosystems (shortKing, Sauron, Eden), and autonomous AI agents.
+**Focus:** Architecting creative pipelines, bridging design with engineering, and building custom toolsets for Cinema 4D, TouchDesigner, embedded hardware ecosystems, and autonomous AI agents.
 
 ## Core Philosophy
 1. **Context over Code:** No generic exercises. Every concept maps to VFX pipeline mechanics, hardware protocols, or LLM data wrangling.
 2. **Capability over Calendar:** Progression is tied to Milestones and Modules, not arbitrary days. We do not advance until execution tracing and conceptual understanding are flawless.
 3. **Execution Tracing:** The primary meta-skill. Reading code line-by-line, tracking variable states, and predicting output *before* execution.
-4. **The Python Glue:** Python is the connective tissue between DCCs, Real-Time Engines, Microcontrollers, and your local Gemma 4:26b instance.
+4. **The Python Glue:** Python is the connective tissue between DCCs, Real-Time Engines, Microcontrollers, and local LLM instances.
 
 ---
 
@@ -24,7 +24,7 @@
 ### Milestone 2: Data Wrangling & API Integration (The Pipeline)
 *How to handle hundreds of objects, frames, or pixels.*
 * **Module 2.1:** Lists & Tuples (Arrays, coordinates, indexing, slicing)
-* **Module 2.2:** Dictionaries & JSON (Includes hitting your local Ollama API via `requests`)
+* **Module 2.2:** Dictionaries & JSON (Includes REST API integration and local LLM pinging)
 * **Module 2.3:** Comprehensions (Compressing loops, filtering data streams)
 * **Module 2.4:** File I/O & Error Handling (Reading/writing configs safely, catching pipeline errors)
 
@@ -32,17 +32,17 @@
 *Thinking like a software architect.*
 * **Module 3.1:** Classes & Objects (Bundling data and functions)
 * **Module 3.2:** `__init__`, `self`, and Methods (Building a `LocalAgent` class that maintains conversational state)
-* **Module 3.3:** Composition (Making classes talk to other classes—e.g., passing your Agent to a DataManager)
+* **Module 3.3:** Composition (Making classes talk to other classes—e.g., passing an Agent to a DataManager)
 
 ### Milestone 4: Cinema 4D Automation
-*Applying M1-M3 directly to the C4D SDK. Automating the 25-year workflow.*
+*Applying M1-M3 directly to the C4D SDK. Automating the production workflow.*
 * **Module 4.1:** The `c4d` module & Script Manager
 * **Module 4.2:** Document and Object Traversal (Walking the hierarchy programmatically)
 * **Module 4.3:** Procedural Generation (Creating objects, tags, and materials via code)
 * **Module 4.4:** Batch Operations (Automating render settings and asset prep)
 
 ### Milestone 5: Tool Use & Autonomous Pipelines (Agentic AI)
-*Putting Gemma 4 in the driver's seat.*
+*Putting the LLM in the driver's seat.*
 * **Module 5.1:** Structured JSON Outputs & Tool Binding
 * **Module 5.2:** LLM Driving C4D Scripts (Building a Scene Prep Assistant)
 * **Module 5.3:** Autonomous Workflow Loops (Think -> Act -> Observe architectures)
@@ -58,13 +58,13 @@
 *Talking to the outside world.*
 * **Module 7.1:** Serial Communication (Pyserial for hardware triggers)
 * **Module 7.2:** OSC & Network Protocols (Talking between C4D, TD, and external devices)
-* **Module 7.3:** MicroPython & MQTT (Bridging Eden/shortKing device logic)
+* **Module 7.3:** MicroPython & MQTT (Bridging distributed IoT sensor logic)
 
 ---
 
 ## Operating Protocol
 
-1. **The README (`README.md`):** Maintained by the student. Tracks overarching project state, R&D notes, and sabbatical data.
+1. **The README (`README.md`):** Maintained by the student. Tracks overarching project state and R&D notes.
 2. **The Syllabus (`SYLLABUS.md`):** This document. The map of the territory.
 3. **The Progress Log (`PROGRESS_LOG.md`):** Maintained by the student. Tracks module completions, quiz scores, execution tracing errors, and conceptual breakthroughs. 
 4. **The Loop:**
