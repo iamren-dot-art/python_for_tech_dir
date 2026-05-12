@@ -1,0 +1,13 @@
+# Environment binaries (recreated per machine)
+.venv/
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# Workspace-specific editor settings
+.vscode/
+
+# Logs and local databases
+*.log
+*.sqlite3
