@@ -1,4 +1,4 @@
-# REN: Technical R&D Sabbatical
+# Python for Technical Directors Log
 
 **Primary Architect:** Arian  
 **Current Focus:** Python for Technical Directors (v2.0)  
