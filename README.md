@@ -8,6 +8,26 @@
 
 ## 📅 Project Log & Sabbatical Tracker
 
+### 2026-05-15 | Module 1.4: Functions & Scope (Milestone 1 Complete)
+* **Pre-Flight Quiz:** Validated environment isolation risks (global vs. `.venv`), execution tracing of assignment (`=`) vs. evaluation (`==`), and correct dictionary factory syntax (`{}`).
+* **Objective:** Encapsulate logic into reusable functions and manage global/local memory spaces.
+* **Actions Completed:**
+  * Built `normalize_adc_level()`, a defensive clamping utility for raw hardware sensor data (0-1023 to 0.0-1.0 floats).
+  * Hardened the critical distinction between `print()` (diagnostic terminal output) and `return` (actual data payload pipeline delivery).
+  * Corrected "ghost operations" by actively assigning math outputs to variables before returning them.
+* **Post-Flight Quiz:** 100% accuracy. Flawlessly traced variable shadowing (local overriding global without destroying it) and identified the "amnesia" flaw of initializing state variables inside a local function scope.
+
+---
+
+### 🏁 Milestone 1 Retrospective: Python Mechanics
+The structural bedrock is secure. The conceptual leaps from 3D/Compositing pipelines to Python syntax are locked in:
+* **Primitives** = Raw parameter data (Strings, Ints, Floats, Bools).
+* **Control Flow** = The routing network (If/Else Switch nodes, For/While Timeline loops).
+* **Functions** = Custom encapsulated Sub-Systems / Base COMPs with defined Inputs (Arguments) and Outputs (Returns).
+* **Scope** = Global Project Settings vs. Temporary Local memory.
+
+**System Readiness:** Cleared to advance to Milestone 2: Data Wrangling & API Integration. The focus shifts from single variables to handling massive data arrays and JSON structures (essential for LLM APIs and procedural scene generation).
+
 ### 2026-05-04 | Milestone 1.1: Environment & Git Protocol
 * **Objective:** Establish a pristine, reproducible Python environment.
 * **Actions Completed:**
