@@ -20,5 +20,13 @@ final_vector = scale_vector(10)
 print(f"Vector: {final_vector} | Global Multiplier: {multiplier}")
 
 A:
+Vector: 50 | Global Multiplier: 2.0
+"""
 
+"""
+Question 3:
+You are building an autonomous Python agent (like your planned local Gemma 4 pipeline). You create a variable chat_history = [] inside a function called generate_response(). Every time the function runs, you append the user's prompt to chat_history. Why will this agent suffer from "amnesia" and forget the conversation after every single message?
+
+A:
+Since the variable is an empty list, everytime the funtion runs, it creates a new blank list to start from, wiping out any previous input.
 """
