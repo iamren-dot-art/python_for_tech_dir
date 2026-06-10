@@ -8,6 +8,18 @@
 
 ## 📅 Project Log & Sabbatical Tracker
 
+### 2026-06-09 | Modules 2.1, 2.2, 2.3: Data Wrangling
+* **Pre-Flight Quiz:** Validated architectural choices for hardware constraints (Tuples for locked memory safety vs. Lists for mutable arrays). Corrected execution tracing on dictionary reading vs. writing—specifically identifying that reading a non-existent key causes a fatal `KeyError`, whereas assigning to a non-existent key creates it.
+* **Objective:** Manipulate massive data arrays, structure JSON API payloads, and procedurally filter data streams.
+* **Actions Completed:**
+  * **Lists & Tuples:** Built data buffers for a *Headless Camera Pipeline*, mastering positive (`0`) and negative (`-1`) index targeting. 
+  * **Dictionaries:** Constructed the exact JSON Key-Value payload structure required to communicate with the *Local AI Server* (`gemma4:26b`), successfully mutating configuration states on the fly.
+  * **Comprehensions:** Processed raw telemetry from the *IoT Environmental Sensor Network*, utilizing a single-line list comprehension to simultaneously filter out error codes (`if level > 0`) and apply a math transformation (`level * 1.1`).
+* **Core Concept Hardened:** The Permanence of Mutability. In Python, modifying a list or dictionary alters it permanently in system RAM. To preserve default states (like a hardware factory reset), `.copy()` must be explicitly used to separate the memory references.
+* **Status:** Paused at the end of Module 2.3. The Post-Flight Quiz for comprehensions will serve as the Pre-Flight Quiz for the next session.
+
+---
+
 ### 2026-05-15 | Module 1.4: Functions & Scope (Milestone 1 Complete)
 * **Pre-Flight Quiz:** Validated environment isolation risks (global vs. `.venv`), execution tracing of assignment (`=`) vs. evaluation (`==`), and correct dictionary factory syntax (`{}`).
 * **Objective:** Encapsulate logic into reusable functions and manage global/local memory spaces.
