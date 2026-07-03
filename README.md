@@ -4,9 +4,17 @@
 **Current Focus:** Python for Technical Directors (v2.0)  
 **Objective:** Architecting creative pipelines, bridging 3D design (C4D) with engineering, and building custom toolsets for embedded hardware and autonomous AI agents.
 
----
 
 ## 📅 Project Log & Sabbatical Tracker
+
+### 2026-07-03 | Milestone 1 & 2 Capstone Exam Completed
+* **Status:** Milestones 1 (Mechanics) and 2 (Data Wrangling) officially cleared.
+* **Exam Diagnostics:**
+  * **Strengths:** Flawless grasp of Architectural Scope (Global vs Local memory), Virtual Environment isolation, Comprehension syntax, and Memory Reference dangers (understanding that variables are nametags, not buckets). Successfully identified `[:]` slicing as a Pythonic alternative to `.copy()`.
+  * **Areas for Ongoing Polish:** Strict Execution Tracing. Identified a tendency to "human-read" (summarizing what a code block *probably* does) rather than "machine-reading" (executing literal line-by-line logic, especially regarding specific `print` targeting and exact numerical indexing like `-2` vs `-1`).
+* **Next Phase:** Milestone 3: Object-Oriented Programming (OOP) & Custom Classes. Shifting from procedural scripts to building persistent, state-aware Python Objects (the foundation of building autonomous AI agents and complex UI controllers).
+
+---
 
 ### 2026-06-09 | Modules 2.1, 2.2, 2.3: Data Wrangling
 * **Pre-Flight Quiz:** Validated architectural choices for hardware constraints (Tuples for locked memory safety vs. Lists for mutable arrays). Corrected execution tracing on dictionary reading vs. writing—specifically identifying that reading a non-existent key causes a fatal `KeyError`, whereas assigning to a non-existent key creates it.

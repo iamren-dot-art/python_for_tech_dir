@@ -64,9 +64,8 @@
 
 ## Operating Protocol
 
-1. **The README (`README.md`):** Maintained by the student. Tracks overarching project state and R&D notes.
+1. **The README (`README.md`):** Maintained by the student. Tracks module completions, quiz scores, execution tracing errors, and conceptual breakthroughs. 
 2. **The Syllabus (`SYLLABUS.md`):** This document. The map of the territory.
-3. **The Progress Log (`PROGRESS_LOG.md`):** Maintained by the student. Tracks module completions, quiz scores, execution tracing errors, and conceptual breakthroughs. 
 4. **The Loop:**
     * **Learn:** Analogies mapping Python concepts to CG/VFX systems and hardware constraints.
     * **Build:** Practical exercises (Write the loop first, then compress).

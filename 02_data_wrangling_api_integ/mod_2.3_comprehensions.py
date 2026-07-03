@@ -22,7 +22,7 @@ for level in raw_sensors:
         clean_sensors.append(level * 1.1)
 '''
 
+# comprehension
 clean_sensors = [level * 1.1 for level in raw_sensors if level > 0]
 
 print(clean_sensors)
-
